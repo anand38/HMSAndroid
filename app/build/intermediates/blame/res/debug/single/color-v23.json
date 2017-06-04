@@ -1,0 +1,46 @@
+[
+    {
+        "merged": "/media/anand38/Anand/Projects/AndroidStudio Projects/JOBPORTAL/app/build/intermediates/res/merged/debug/color-v23/abc_tint_edittext.xml",
+        "source": "/home/anand38/.android/build-cache/c9ed3bad3b6a01f570c75bd7d4b51cbca8b691af/output/res/color-v23/abc_tint_edittext.xml"
+    },
+    {
+        "merged": "/media/anand38/Anand/Projects/AndroidStudio Projects/JOBPORTAL/app/build/intermediates/res/merged/debug/color-v23/abc_tint_default.xml",
+        "source": "/home/anand38/.android/build-cache/c9ed3bad3b6a01f570c75bd7d4b51cbca8b691af/output/res/color-v23/abc_tint_default.xml"
+    },
+    {
+        "merged": "/media/anand38/Anand/Projects/AndroidStudio Projects/JOBPORTAL/app/build/intermediates/res/merged/debug/color-v23/abc_tint_btn_checkable.xml",
+        "source": "/home/anand38/.android/build-cache/c9ed3bad3b6a01f570c75bd7d4b51cbca8b691af/output/res/color-v23/abc_tint_btn_checkable.xml"
+    },
+    {
+        "merged": "/media/anand38/Anand/Projects/AndroidStudio Projects/JOBPORTAL/app/build/intermediates/res/merged/debug/color-v23/design_tint_password_toggle.xml",
+        "source": "/home/anand38/.android/build-cache/816baee1f18fad3c0101fbc3984401c6c12312df/output/res/color-v23/design_tint_password_toggle.xml"
+    },
+    {
+        "merged": "/media/anand38/Anand/Projects/AndroidStudio Projects/JOBPORTAL/app/build/intermediates/res/merged/debug/color-v23/abc_color_highlight_material.xml",
+        "source": "/home/anand38/.android/build-cache/c9ed3bad3b6a01f570c75bd7d4b51cbca8b691af/output/res/color-v23/abc_color_highlight_material.xml"
+    },
+    {
+        "merged": "/media/anand38/Anand/Projects/AndroidStudio Projects/JOBPORTAL/app/build/intermediates/res/merged/debug/color-v23/abc_tint_spinner.xml",
+        "source": "/home/anand38/.android/build-cache/c9ed3bad3b6a01f570c75bd7d4b51cbca8b691af/output/res/color-v23/abc_tint_spinner.xml"
+    },
+    {
+        "merged": "/media/anand38/Anand/Projects/AndroidStudio Projects/JOBPORTAL/app/build/intermediates/res/merged/debug/color-v23/abc_tint_switch_thumb.xml",
+        "source": "/home/anand38/.android/build-cache/c9ed3bad3b6a01f570c75bd7d4b51cbca8b691af/output/res/color-v23/abc_tint_switch_thumb.xml"
+    },
+    {
+        "merged": "/media/anand38/Anand/Projects/AndroidStudio Projects/JOBPORTAL/app/build/intermediates/res/merged/debug/color-v23/abc_tint_seek_thumb.xml",
+        "source": "/home/anand38/.android/build-cache/c9ed3bad3b6a01f570c75bd7d4b51cbca8b691af/output/res/color-v23/abc_tint_seek_thumb.xml"
+    },
+    {
+        "merged": "/media/anand38/Anand/Projects/AndroidStudio Projects/JOBPORTAL/app/build/intermediates/res/merged/debug/color-v23/abc_btn_colored_borderless_text_material.xml",
+        "source": "/home/anand38/.android/build-cache/c9ed3bad3b6a01f570c75bd7d4b51cbca8b691af/output/res/color-v23/abc_btn_colored_borderless_text_material.xml"
+    },
+    {
+        "merged": "/media/anand38/Anand/Projects/AndroidStudio Projects/JOBPORTAL/app/build/intermediates/res/merged/debug/color-v23/abc_btn_colored_text_material.xml",
+        "source": "/home/anand38/.android/build-cache/c9ed3bad3b6a01f570c75bd7d4b51cbca8b691af/output/res/color-v23/abc_btn_colored_text_material.xml"
+    },
+    {
+        "merged": "/media/anand38/Anand/Projects/AndroidStudio Projects/JOBPORTAL/app/build/intermediates/res/merged/debug/color-v23/abc_tint_switch_track.xml",
+        "source": "/home/anand38/.android/build-cache/c9ed3bad3b6a01f570c75bd7d4b51cbca8b691af/output/res/color-v23/abc_tint_switch_track.xml"
+    }
+]

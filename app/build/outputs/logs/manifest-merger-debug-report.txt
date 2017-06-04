@@ -1,0 +1,105 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /media/anand38/Anand/Projects/AndroidStudio Projects/JOBPORTAL/app/src/main/AndroidManifest.xml:2:1-27:12
+	package
+		ADDED from /media/anand38/Anand/Projects/AndroidStudio Projects/JOBPORTAL/app/src/main/AndroidManifest.xml:3:5-44
+		INJECTED from /media/anand38/Anand/Projects/AndroidStudio Projects/JOBPORTAL/app/src/main/AndroidManifest.xml
+		INJECTED from /media/anand38/Anand/Projects/AndroidStudio Projects/JOBPORTAL/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /media/anand38/Anand/Projects/AndroidStudio Projects/JOBPORTAL/app/src/main/AndroidManifest.xml
+		INJECTED from /media/anand38/Anand/Projects/AndroidStudio Projects/JOBPORTAL/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /media/anand38/Anand/Projects/AndroidStudio Projects/JOBPORTAL/app/src/main/AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from /media/anand38/Anand/Projects/AndroidStudio Projects/JOBPORTAL/app/src/main/AndroidManifest.xml
+		INJECTED from /media/anand38/Anand/Projects/AndroidStudio Projects/JOBPORTAL/app/src/main/AndroidManifest.xml
+application
+ADDED from /media/anand38/Anand/Projects/AndroidStudio Projects/JOBPORTAL/app/src/main/AndroidManifest.xml:5:5-25:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/anand38/.android/build-cache/b90f9d8820e6d243b0d756433d774f9deb680174/output/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:design:26.0.0-alpha1] /home/anand38/.android/build-cache/816baee1f18fad3c0101fbc3984401c6c12312df/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] /home/anand38/.android/build-cache/c9ed3bad3b6a01f570c75bd7d4b51cbca8b691af/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] /home/anand38/.android/build-cache/f8f5adc3c1814db2042f63e24be2a67d17b919f6/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] /home/anand38/.android/build-cache/38e157d4567b0a2a60bd456107e0ba0d60f5e106/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:transition:26.0.0-alpha1] /home/anand38/.android/build-cache/d5e66fa18cf800d2b123786e6f6d989a093cee40/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] /home/anand38/.android/build-cache/67b9dfaac00871dfe85a698b55c17cc0b31ae71d/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] /home/anand38/.android/build-cache/632f31c4ced4fd7bc28d79a153c8fafbb1425389/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] /home/anand38/.android/build-cache/0ddf7cf625927353c9d956df594077f01ed33da7/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] /home/anand38/.android/build-cache/59b58cfe254b3b6f1de590e26151ebcafcaec3d3/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] /home/anand38/.android/build-cache/999b7c91b6427d309da1570fa46d12403b95f698/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] /home/anand38/.android/build-cache/f02b647f1bffcdb717eac395d5121ef08591d067/output/AndroidManifest.xml:29:5-20
+	android:label
+		ADDED from /media/anand38/Anand/Projects/AndroidStudio Projects/JOBPORTAL/app/src/main/AndroidManifest.xml:8:9-41
+	android:supportsRtl
+		ADDED from /media/anand38/Anand/Projects/AndroidStudio Projects/JOBPORTAL/app/src/main/AndroidManifest.xml:10:9-35
+	android:roundIcon
+		ADDED from /media/anand38/Anand/Projects/AndroidStudio Projects/JOBPORTAL/app/src/main/AndroidManifest.xml:9:9-54
+	android:allowBackup
+		ADDED from /media/anand38/Anand/Projects/AndroidStudio Projects/JOBPORTAL/app/src/main/AndroidManifest.xml:6:9-35
+	android:icon
+		ADDED from /media/anand38/Anand/Projects/AndroidStudio Projects/JOBPORTAL/app/src/main/AndroidManifest.xml:7:9-43
+	android:theme
+		ADDED from /media/anand38/Anand/Projects/AndroidStudio Projects/JOBPORTAL/app/src/main/AndroidManifest.xml:11:9-40
+activity#com.example.anand38.jobportal.MainActivity
+ADDED from /media/anand38/Anand/Projects/AndroidStudio Projects/JOBPORTAL/app/src/main/AndroidManifest.xml:12:9-20:20
+	android:theme
+		ADDED from /media/anand38/Anand/Projects/AndroidStudio Projects/JOBPORTAL/app/src/main/AndroidManifest.xml:14:13-69
+	android:name
+		ADDED from /media/anand38/Anand/Projects/AndroidStudio Projects/JOBPORTAL/app/src/main/AndroidManifest.xml:13:13-41
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /media/anand38/Anand/Projects/AndroidStudio Projects/JOBPORTAL/app/src/main/AndroidManifest.xml:15:13-19:29
+action#android.intent.action.MAIN
+ADDED from /media/anand38/Anand/Projects/AndroidStudio Projects/JOBPORTAL/app/src/main/AndroidManifest.xml:16:17-69
+	android:name
+		ADDED from /media/anand38/Anand/Projects/AndroidStudio Projects/JOBPORTAL/app/src/main/AndroidManifest.xml:16:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /media/anand38/Anand/Projects/AndroidStudio Projects/JOBPORTAL/app/src/main/AndroidManifest.xml:18:17-77
+	android:name
+		ADDED from /media/anand38/Anand/Projects/AndroidStudio Projects/JOBPORTAL/app/src/main/AndroidManifest.xml:18:27-74
+activity#com.example.anand38.jobportal.Home_Activity
+ADDED from /media/anand38/Anand/Projects/AndroidStudio Projects/JOBPORTAL/app/src/main/AndroidManifest.xml:21:9-24:68
+	android:label
+		ADDED from /media/anand38/Anand/Projects/AndroidStudio Projects/JOBPORTAL/app/src/main/AndroidManifest.xml:23:13-57
+	android:theme
+		ADDED from /media/anand38/Anand/Projects/AndroidStudio Projects/JOBPORTAL/app/src/main/AndroidManifest.xml:24:13-56
+	android:name
+		ADDED from /media/anand38/Anand/Projects/AndroidStudio Projects/JOBPORTAL/app/src/main/AndroidManifest.xml:22:13-42
+uses-sdk
+INJECTED from /media/anand38/Anand/Projects/AndroidStudio Projects/JOBPORTAL/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/anand38/.android/build-cache/b90f9d8820e6d243b0d756433d774f9deb680174/output/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:design:26.0.0-alpha1] /home/anand38/.android/build-cache/816baee1f18fad3c0101fbc3984401c6c12312df/output/AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] /home/anand38/.android/build-cache/c9ed3bad3b6a01f570c75bd7d4b51cbca8b691af/output/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] /home/anand38/.android/build-cache/f8f5adc3c1814db2042f63e24be2a67d17b919f6/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] /home/anand38/.android/build-cache/38e157d4567b0a2a60bd456107e0ba0d60f5e106/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:26.0.0-alpha1] /home/anand38/.android/build-cache/f74abdb5aa5f9c9099e3399775922e70fe8ab9f6/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:26.0.0-alpha1] /home/anand38/.android/build-cache/d5e66fa18cf800d2b123786e6f6d989a093cee40/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] /home/anand38/.android/build-cache/67b9dfaac00871dfe85a698b55c17cc0b31ae71d/output/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] /home/anand38/.android/build-cache/632f31c4ced4fd7bc28d79a153c8fafbb1425389/output/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] /home/anand38/.android/build-cache/0ddf7cf625927353c9d956df594077f01ed33da7/output/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] /home/anand38/.android/build-cache/59b58cfe254b3b6f1de590e26151ebcafcaec3d3/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] /home/anand38/.android/build-cache/999b7c91b6427d309da1570fa46d12403b95f698/output/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] /home/anand38/.android/build-cache/f02b647f1bffcdb717eac395d5121ef08591d067/output/AndroidManifest.xml:21:5-23:58
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:26.0.0-alpha1] /home/anand38/.android/build-cache/816baee1f18fad3c0101fbc3984401c6c12312df/output/AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from /media/anand38/Anand/Projects/AndroidStudio Projects/JOBPORTAL/app/src/main/AndroidManifest.xml
+		INJECTED from /media/anand38/Anand/Projects/AndroidStudio Projects/JOBPORTAL/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /media/anand38/Anand/Projects/AndroidStudio Projects/JOBPORTAL/app/src/main/AndroidManifest.xml
+		INJECTED from /media/anand38/Anand/Projects/AndroidStudio Projects/JOBPORTAL/app/src/main/AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:design:26.0.0-alpha1] /home/anand38/.android/build-cache/816baee1f18fad3c0101fbc3984401c6c12312df/output/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] /home/anand38/.android/build-cache/c9ed3bad3b6a01f570c75bd7d4b51cbca8b691af/output/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] /home/anand38/.android/build-cache/f8f5adc3c1814db2042f63e24be2a67d17b919f6/output/AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] /home/anand38/.android/build-cache/38e157d4567b0a2a60bd456107e0ba0d60f5e106/output/AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:recyclerview-v7:26.0.0-alpha1] /home/anand38/.android/build-cache/f74abdb5aa5f9c9099e3399775922e70fe8ab9f6/output/AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:transition:26.0.0-alpha1] /home/anand38/.android/build-cache/d5e66fa18cf800d2b123786e6f6d989a093cee40/output/AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] /home/anand38/.android/build-cache/67b9dfaac00871dfe85a698b55c17cc0b31ae71d/output/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] /home/anand38/.android/build-cache/632f31c4ced4fd7bc28d79a153c8fafbb1425389/output/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] /home/anand38/.android/build-cache/0ddf7cf625927353c9d956df594077f01ed33da7/output/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] /home/anand38/.android/build-cache/59b58cfe254b3b6f1de590e26151ebcafcaec3d3/output/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] /home/anand38/.android/build-cache/999b7c91b6427d309da1570fa46d12403b95f698/output/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] /home/anand38/.android/build-cache/f02b647f1bffcdb717eac395d5121ef08591d067/output/AndroidManifest.xml:25:5-27:41
+	android:value
+		ADDED from [com.android.support:design:26.0.0-alpha1] /home/anand38/.android/build-cache/816baee1f18fad3c0101fbc3984401c6c12312df/output/AndroidManifest.xml:27:9-38
+	android:name
+		ADDED from [com.android.support:design:26.0.0-alpha1] /home/anand38/.android/build-cache/816baee1f18fad3c0101fbc3984401c6c12312df/output/AndroidManifest.xml:26:9-47

@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/media/anand38/Anand/Projects/AndroidStudio Projects/JOBPORTAL/app/build/intermediates/res/merged/debug/mipmap-xhdpi/ic_launcher.png",
+        "source": "/media/anand38/Anand/Projects/AndroidStudio Projects/JOBPORTAL/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/media/anand38/Anand/Projects/AndroidStudio Projects/JOBPORTAL/app/build/intermediates/res/merged/debug/mipmap-xhdpi/ic_launcher_round.png",
+        "source": "/media/anand38/Anand/Projects/AndroidStudio Projects/JOBPORTAL/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
+    }
+]
