@@ -4,7 +4,23 @@
         "source": "/media/anand38/Anand/Projects/AndroidStudio Projects/JOBPORTAL/app/src/main/res/menu/home_.xml"
     },
     {
+        "merged": "/media/anand38/Anand/Projects/AndroidStudio Projects/JOBPORTAL/app/build/intermediates/res/merged/debug/menu/home.xml",
+        "source": "/media/anand38/Anand/Projects/AndroidStudio Projects/JOBPORTAL/app/src/main/res/menu/home.xml"
+    },
+    {
         "merged": "/media/anand38/Anand/Projects/AndroidStudio Projects/JOBPORTAL/app/build/intermediates/res/merged/debug/menu/activity_home__drawer.xml",
         "source": "/media/anand38/Anand/Projects/AndroidStudio Projects/JOBPORTAL/app/src/main/res/menu/activity_home__drawer.xml"
+    },
+    {
+        "merged": "/media/anand38/Anand/Projects/AndroidStudio Projects/JOBPORTAL/app/build/intermediates/res/merged/debug/menu/activity_home_drawer.xml",
+        "source": "/media/anand38/Anand/Projects/AndroidStudio Projects/JOBPORTAL/app/src/main/res/menu/activity_home_drawer.xml"
+    },
+    {
+        "merged": "/media/anand38/Anand/Projects/AndroidStudio Projects/JOBPORTAL/app/build/intermediates/res/merged/debug/menu/menu_scrolling.xml",
+        "source": "/media/anand38/Anand/Projects/AndroidStudio Projects/JOBPORTAL/app/src/main/res/menu/menu_scrolling.xml"
+    },
+    {
+        "merged": "/media/anand38/Anand/Projects/AndroidStudio Projects/JOBPORTAL/app/build/intermediates/res/merged/debug/menu/menu_landing.xml",
+        "source": "/media/anand38/Anand/Projects/AndroidStudio Projects/JOBPORTAL/app/src/main/res/menu/menu_landing.xml"
     }
 ]

@@ -128,20 +128,20 @@
         "source": "/home/anand38/.android/build-cache/c9ed3bad3b6a01f570c75bd7d4b51cbca8b691af/output/res/layout/abc_alert_dialog_material.xml"
     },
     {
-        "merged": "/media/anand38/Anand/Projects/AndroidStudio Projects/JOBPORTAL/app/build/intermediates/res/merged/debug/layout/content_home_.xml",
-        "source": "/media/anand38/Anand/Projects/AndroidStudio Projects/JOBPORTAL/app/src/main/res/layout/content_home_.xml"
-    },
-    {
         "merged": "/media/anand38/Anand/Projects/AndroidStudio Projects/JOBPORTAL/app/build/intermediates/res/merged/debug/layout/abc_action_menu_layout.xml",
         "source": "/home/anand38/.android/build-cache/c9ed3bad3b6a01f570c75bd7d4b51cbca8b691af/output/res/layout/abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "/media/anand38/Anand/Projects/AndroidStudio Projects/JOBPORTAL/app/build/intermediates/res/merged/debug/layout/content_home.xml",
+        "source": "/media/anand38/Anand/Projects/AndroidStudio Projects/JOBPORTAL/app/src/main/res/layout/content_home.xml"
     },
     {
         "merged": "/media/anand38/Anand/Projects/AndroidStudio Projects/JOBPORTAL/app/build/intermediates/res/merged/debug/layout/design_layout_snackbar.xml",
         "source": "/home/anand38/.android/build-cache/816baee1f18fad3c0101fbc3984401c6c12312df/output/res/layout/design_layout_snackbar.xml"
     },
     {
-        "merged": "/media/anand38/Anand/Projects/AndroidStudio Projects/JOBPORTAL/app/build/intermediates/res/merged/debug/layout/app_bar_home_.xml",
-        "source": "/media/anand38/Anand/Projects/AndroidStudio Projects/JOBPORTAL/app/src/main/res/layout/app_bar_home_.xml"
+        "merged": "/media/anand38/Anand/Projects/AndroidStudio Projects/JOBPORTAL/app/build/intermediates/res/merged/debug/layout/app_bar_home.xml",
+        "source": "/media/anand38/Anand/Projects/AndroidStudio Projects/JOBPORTAL/app/src/main/res/layout/app_bar_home.xml"
     },
     {
         "merged": "/media/anand38/Anand/Projects/AndroidStudio Projects/JOBPORTAL/app/build/intermediates/res/merged/debug/layout/design_menu_item_action_area.xml",
@@ -150,6 +150,10 @@
     {
         "merged": "/media/anand38/Anand/Projects/AndroidStudio Projects/JOBPORTAL/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_radio.xml",
         "source": "/home/anand38/.android/build-cache/c9ed3bad3b6a01f570c75bd7d4b51cbca8b691af/output/res/layout/abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "/media/anand38/Anand/Projects/AndroidStudio Projects/JOBPORTAL/app/build/intermediates/res/merged/debug/layout/nav_header_home.xml",
+        "source": "/media/anand38/Anand/Projects/AndroidStudio Projects/JOBPORTAL/app/src/main/res/layout/nav_header_home.xml"
     },
     {
         "merged": "/media/anand38/Anand/Projects/AndroidStudio Projects/JOBPORTAL/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_checkbox.xml",
@@ -180,8 +184,8 @@
         "source": "/home/anand38/.android/build-cache/c9ed3bad3b6a01f570c75bd7d4b51cbca8b691af/output/res/layout/notification_template_media.xml"
     },
     {
-        "merged": "/media/anand38/Anand/Projects/AndroidStudio Projects/JOBPORTAL/app/build/intermediates/res/merged/debug/layout/nav_header_home_.xml",
-        "source": "/media/anand38/Anand/Projects/AndroidStudio Projects/JOBPORTAL/app/src/main/res/layout/nav_header_home_.xml"
+        "merged": "/media/anand38/Anand/Projects/AndroidStudio Projects/JOBPORTAL/app/build/intermediates/res/merged/debug/layout/activity_home.xml",
+        "source": "/media/anand38/Anand/Projects/AndroidStudio Projects/JOBPORTAL/app/src/main/res/layout/activity_home.xml"
     },
     {
         "merged": "/media/anand38/Anand/Projects/AndroidStudio Projects/JOBPORTAL/app/build/intermediates/res/merged/debug/layout/abc_screen_simple.xml",
@@ -202,10 +206,6 @@
     {
         "merged": "/media/anand38/Anand/Projects/AndroidStudio Projects/JOBPORTAL/app/build/intermediates/res/merged/debug/layout/design_bottom_sheet_dialog.xml",
         "source": "/home/anand38/.android/build-cache/816baee1f18fad3c0101fbc3984401c6c12312df/output/res/layout/design_bottom_sheet_dialog.xml"
-    },
-    {
-        "merged": "/media/anand38/Anand/Projects/AndroidStudio Projects/JOBPORTAL/app/build/intermediates/res/merged/debug/layout/activity_home_.xml",
-        "source": "/media/anand38/Anand/Projects/AndroidStudio Projects/JOBPORTAL/app/src/main/res/layout/activity_home_.xml"
     },
     {
         "merged": "/media/anand38/Anand/Projects/AndroidStudio Projects/JOBPORTAL/app/build/intermediates/res/merged/debug/layout/notification_action.xml",
