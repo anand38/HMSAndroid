@@ -64,4 +64,45 @@ public class XmlSerializer {
         System.out.println("XmlString:"+writer.toString());
         return writer.toString();
     }
+
+    public static String create_xml_from_email_only(String email) {
+        StringWriter writer=null;
+        try {
+
+            DocumentBuilderFactory docFactory = DocumentBuilderFactory.newInstance();
+            DocumentBuilder docBuilder = docFactory.newDocumentBuilder();
+
+            // root elements
+            Document doc = docBuilder.newDocument();
+            Element rootElement = doc.createElement("candidate");
+            doc.appendChild(rootElement);
+
+            // shorten way
+            // staff.setAttribute("id", "1");
+
+            // firstname elements
+            Element city = doc.createElement("email");
+            city.appendChild(doc.createTextNode(email));
+            rootElement.appendChild(city);
+
+
+            // write the content into xml file
+            TransformerFactory transformerFactory = TransformerFactory.newInstance();
+            Transformer transformer = transformerFactory.newTransformer();
+            DOMSource source = new DOMSource(doc);
+            writer=new StringWriter();
+            // Output to console for testing
+            //StreamResult result = new StreamResult(System.out);
+
+            transformer.transform(source, new StreamResult(writer));
+
+        } catch (ParserConfigurationException pce) {
+            pce.printStackTrace();
+        } catch (TransformerException tfe) {
+            tfe.printStackTrace();
+        }
+        System.out.println("XmlString:"+writer.toString());
+        return writer.toString();
+
+    }
 }
