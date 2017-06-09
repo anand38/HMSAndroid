@@ -3,165 +3,48 @@
 
     <item
         is-multidex="true"
-        jar="/media/anand38/Anand/Projects/AndroidStudio Projects/JOBPORTAL/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jar="/media/anand38/Anand/Projects/AndroidStudio Projects/Job Portal/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="36fe32afced49ff332c63f999f3827016f289595">
-        <dex dex="/media/anand38/Anand/Projects/AndroidStudio Projects/JOBPORTAL/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_14b81e59d8873d9c001dcbf97227b904584a6374/classes.dex" />
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="/media/anand38/Anand/Projects/AndroidStudio Projects/Job Portal/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_9aefdf4807300cf92fe8570f1e0af3b2468372ab/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/home/anand38/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/26.0.0-alpha1/support-annotations-26.0.0-alpha1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="023ee503b631f69511e335a061ea008f8da60f40">
-        <dex dex="/media/anand38/Anand/Projects/AndroidStudio Projects/JOBPORTAL/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-26.0.0-alpha1_b5cb4a3588f66be44c3c9883e36f8f25cb65dd6c/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/anand38/.android/build-cache/999b7c91b6427d309da1570fa46d12403b95f698/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="2e92aa0163544a804a0b34f169ca61801770839a">
-        <dex dex="/media/anand38/Anand/Projects/AndroidStudio Projects/JOBPORTAL/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_72ce51c821451677c5c3fe78af14a5727c164f91/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/anand38/.android/build-cache/f02b647f1bffcdb717eac395d5121ef08591d067/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="8df0e365e40beb151bc42dee20817721a6cab7b0">
-        <dex dex="/media/anand38/Anand/Projects/AndroidStudio Projects/JOBPORTAL/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_5eec30067dbbf65680dad8301c64b9e23197334c/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/anand38/.android/build-cache/d5e66fa18cf800d2b123786e6f6d989a093cee40/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="cddcd0fb93bc70e27325f2f715b2710332004ebb">
-        <dex dex="/media/anand38/Anand/Projects/AndroidStudio Projects/JOBPORTAL/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_ef05ed031e393e8a05ccba539d5b0940457a36cf/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/media/anand38/Anand/Projects/AndroidStudio Projects/JOBPORTAL/app/libs/org.apache.commons.io.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="b90b6ac57cf27a2858eaa490d02ba7945d18ca7b">
-        <dex dex="/media/anand38/Anand/Projects/AndroidStudio Projects/JOBPORTAL/app/build/intermediates/transforms/dex/debug/folders/1000/2/org.apache.commons.io_7b60e0cdf5620543cc16df0f9315f1ee3790fe85/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/anand38/.android/build-cache/0ddf7cf625927353c9d956df594077f01ed33da7/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="18d31838aa4fcc768a8a0516e22cc13b94655d89">
-        <dex dex="/media/anand38/Anand/Projects/AndroidStudio Projects/JOBPORTAL/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_2fe4bc9a499f87f29e229e098bfde006bd7a8cc9/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/anand38/.android/build-cache/f74abdb5aa5f9c9099e3399775922e70fe8ab9f6/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="c4f45092eee6cdf1a5dbd597b2b6819be652ce2e">
-        <dex dex="/media/anand38/Anand/Projects/AndroidStudio Projects/JOBPORTAL/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_f78bf4f4c9250b02431f85c21c74545bfa2524d9/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/media/anand38/Anand/Projects/AndroidStudio Projects/JOBPORTAL/app/libs/apache-httpcomponents-httpclient.jar"
+        jar="/media/anand38/Anand/Projects/AndroidStudio Projects/Job Portal/app/libs/apache-httpcomponents-httpclient.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="13d1b1d8f318f5b0f95bc2901f378ef68982584f">
-        <dex dex="/media/anand38/Anand/Projects/AndroidStudio Projects/JOBPORTAL/app/build/intermediates/transforms/dex/debug/folders/1000/2/apache-httpcomponents-httpclient_141f6dce27cefbdac5786d1f8b517a06309cfd17/classes.dex" />
+        <dex dex="/media/anand38/Anand/Projects/AndroidStudio Projects/Job Portal/app/build/intermediates/transforms/dex/debug/folders/1000/2/apache-httpcomponents-httpclient_3f952716dbbe58ee345412c64a80848389e7c222/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/home/anand38/.android/build-cache/f8f5adc3c1814db2042f63e24be2a67d17b919f6/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="88246166d5afb106f532f6e6deae683c66b42c89">
-        <dex dex="/media/anand38/Anand/Projects/AndroidStudio Projects/JOBPORTAL/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_b4c9d32a8532d0237aade9ccddf17e84ef48acda/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/anand38/.android/build-cache/c9ed3bad3b6a01f570c75bd7d4b51cbca8b691af/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="47471eb19df288158b00b8d9cfa41bce7373f5cc">
-        <dex dex="/media/anand38/Anand/Projects/AndroidStudio Projects/JOBPORTAL/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_54dbe8d11f287ee64808fe1306a9f7b3a5492b83/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/media/anand38/Anand/Projects/AndroidStudio Projects/JOBPORTAL/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="caff8e51a24901cfc9cd7e1cf83d84f4cb0c103b">
-        <dex dex="/media/anand38/Anand/Projects/AndroidStudio Projects/JOBPORTAL/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_cb20723d649b00190dab5eb96cae0a9f7c7b2f74/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/media/anand38/Anand/Projects/AndroidStudio Projects/JOBPORTAL/app/libs/apache-httpcomponents-httpcore.jar"
+        jar="/media/anand38/Anand/Projects/AndroidStudio Projects/Job Portal/app/libs/apache-httpcomponents-httpcore.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="33fc26c02f8043ab0ede19eadc8c9885386b255c">
-        <dex dex="/media/anand38/Anand/Projects/AndroidStudio Projects/JOBPORTAL/app/build/intermediates/transforms/dex/debug/folders/1000/2/apache-httpcomponents-httpcore_378960ce17aef6146d163dc0cefd1375b26b7d2a/classes.dex" />
+        <dex dex="/media/anand38/Anand/Projects/AndroidStudio Projects/Job Portal/app/build/intermediates/transforms/dex/debug/folders/1000/2/apache-httpcomponents-httpcore_aac3c30ff6b8b9530a83522868ecba0db3bd60d2/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/home/anand38/.android/build-cache/59b58cfe254b3b6f1de590e26151ebcafcaec3d3/output/jars/classes.jar"
+        jar="/media/anand38/Anand/Projects/AndroidStudio Projects/Job Portal/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="fcd01fd11233459f546c437ec927e9b61bf7caf1">
-        <dex dex="/media/anand38/Anand/Projects/AndroidStudio Projects/JOBPORTAL/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_e70984e528295b2267dd88404b5768f0441245d7/classes.dex" />
+        sha1="48f56d3f621069ba9774da1df35c8763a83f0ec9">
+        <dex dex="/media/anand38/Anand/Projects/AndroidStudio Projects/Job Portal/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_12a3570b872070f066749e2b7ffc7a82ba2fd008/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/home/anand38/.android/build-cache/67b9dfaac00871dfe85a698b55c17cc0b31ae71d/output/jars/classes.jar"
+        jar="/media/anand38/Anand/Projects/AndroidStudio Projects/Job Portal/app/libs/org.apache.commons.io.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="/media/anand38/Anand/Projects/AndroidStudio Projects/JOBPORTAL/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_ab05c1bf82745a06451e90cdf99291bea637d444/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/anand38/.android/build-cache/38e157d4567b0a2a60bd456107e0ba0d60f5e106/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="952944218ecedea1554a513dec0c14d570642843">
-        <dex dex="/media/anand38/Anand/Projects/AndroidStudio Projects/JOBPORTAL/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_35cb605afda796174162befb5093ecef7c743913/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/anand38/.android/build-cache/632f31c4ced4fd7bc28d79a153c8fafbb1425389/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="9935891f23923f39d002087085d9696568a9f657">
-        <dex dex="/media/anand38/Anand/Projects/AndroidStudio Projects/JOBPORTAL/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_2ea04dcb8f898baf9c8bd3fa93a381149146c238/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/anand38/.android/build-cache/816baee1f18fad3c0101fbc3984401c6c12312df/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="6a022bf00ccd0948a8180c505e8e458bbddd43a6">
-        <dex dex="/media/anand38/Anand/Projects/AndroidStudio Projects/JOBPORTAL/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_b7e3373262f19d974c039136b5adc8cae5932b70/classes.dex" />
+        sha1="b90b6ac57cf27a2858eaa490d02ba7945d18ca7b">
+        <dex dex="/media/anand38/Anand/Projects/AndroidStudio Projects/Job Portal/app/build/intermediates/transforms/dex/debug/folders/1000/2/org.apache.commons.io_dc71a1ccdf16827605ab474f863f67cd9dc78c30/classes.dex" />
     </item>
 
 </items>

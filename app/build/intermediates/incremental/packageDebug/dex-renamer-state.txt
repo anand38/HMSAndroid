@@ -1,7 +1,7 @@
-#Thu Jun 08 19:51:14 IST 2017
-base.0=/media/anand38/Anand/Projects/AndroidStudio Projects/JOBPORTAL/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_cb20723d649b00190dab5eb96cae0a9f7c7b2f74
-renamed.1=classes.dex
-renamed.0=classes2.dex
-file.1=/media/anand38/Anand/Projects/AndroidStudio Projects/JOBPORTAL/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_14b81e59d8873d9c001dcbf97227b904584a6374/classes.dex
-base.1=/media/anand38/Anand/Projects/AndroidStudio Projects/JOBPORTAL/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_14b81e59d8873d9c001dcbf97227b904584a6374
-file.0=/media/anand38/Anand/Projects/AndroidStudio Projects/JOBPORTAL/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_cb20723d649b00190dab5eb96cae0a9f7c7b2f74/classes.dex
+#Fri Jun 09 11:45:52 IST 2017
+base.0=/media/anand38/Anand/Projects/AndroidStudio Projects/Job Portal/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_9aefdf4807300cf92fe8570f1e0af3b2468372ab
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=/media/anand38/Anand/Projects/AndroidStudio Projects/Job Portal/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_12a3570b872070f066749e2b7ffc7a82ba2fd008/classes.dex
+base.1=/media/anand38/Anand/Projects/AndroidStudio Projects/Job Portal/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_12a3570b872070f066749e2b7ffc7a82ba2fd008
+file.0=/media/anand38/Anand/Projects/AndroidStudio Projects/Job Portal/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_9aefdf4807300cf92fe8570f1e0af3b2468372ab/classes.dex

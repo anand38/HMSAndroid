@@ -1,4 +1,4 @@
-#Thu Jun 08 20:06:01 IST 2017
-base.0=/media/anand38/Anand/Projects/AndroidStudio Projects/JOBPORTAL/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_7
+#Fri Jun 09 11:48:49 IST 2017
+base.0=/media/anand38/Anand/Projects/AndroidStudio Projects/Job Portal/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_7
 renamed.0=classes.dex
-file.0=/media/anand38/Anand/Projects/AndroidStudio Projects/JOBPORTAL/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_7/classes.dex
+file.0=/media/anand38/Anand/Projects/AndroidStudio Projects/Job Portal/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_7/classes.dex

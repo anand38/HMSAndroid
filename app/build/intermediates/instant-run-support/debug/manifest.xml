@@ -27,11 +27,6 @@
         <activity
             android:name="com.example.anand38.jobportal.Activity.MainActivity"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
-            <intent-filter>
-                <action android:name="android.intent.action.HOME" />
-
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
         </activity>
         <activity
             android:name="com.example.anand38.jobportal.Activity.Home"

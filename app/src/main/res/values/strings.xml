@@ -14,4 +14,13 @@
     <string name="section_format">Hello World from section: %1$d</string>
 
     <string name="title_activity_home">DREAM JOB</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="entry">Search Jobs</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="entry1">search Jobs</string>
+    <string name="profile">Profile</string>
+    <string name="applied_jobs">Applied Jobs</string>
 </resources>

@@ -4,6 +4,9 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
+import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentManager;
+import android.support.v4.app.FragmentTransaction;
 import android.view.View;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
@@ -18,6 +21,10 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.anand38.jobportal.Database.SessionManager;
+import com.example.anand38.jobportal.Fragments.Appplied_Jobs;
+import com.example.anand38.jobportal.Fragments.Profile;
+import com.example.anand38.jobportal.Fragments.Search_Jobs;
+import com.example.anand38.jobportal.Fragments.default_fragment;
 import com.example.anand38.jobportal.Helper.FileJob;
 import com.example.anand38.jobportal.R;
 
@@ -26,6 +33,8 @@ public class Home extends AppCompatActivity
     SessionManager manager;
     String name,email;
     TextView user_name_tv,user_email_tv;
+    FragmentManager fm;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -74,6 +83,10 @@ public class Home extends AppCompatActivity
         //Toast.makeText(this, name, Toast.LENGTH_SHORT).show();
         user_name_tv.setText(name);
         user_email_tv.setText(email);
+        Fragment fragment=new default_fragment();
+        FragmentTransaction ft=getSupportFragmentManager().beginTransaction();
+        ft.add(R.id.frame,fragment);
+        ft.commit();
     }
 
     @Override
@@ -89,7 +102,7 @@ public class Home extends AppCompatActivity
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.home, menu);
+
         return true;
     }
 
@@ -114,19 +127,38 @@ public class Home extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-        if (id == R.id.nav_camera) {
+        Fragment fragment=null;
+        if (id == R.id.search_jobs) {
             // Handle the camera action
-        } else if (id == R.id.nav_gallery) {
+            fragment=new Search_Jobs();
+            FragmentTransaction ft=getSupportFragmentManager().beginTransaction();
+            ft.replace(R.id.frame,fragment);
+            ft.commit();
+            Toast.makeText(this, "Clicked on Search jobs", Toast.LENGTH_SHORT).show();
+        } else if (id == R.id.applied_jobs) {
+            fragment=new Appplied_Jobs();
+            FragmentTransaction ft=getSupportFragmentManager().beginTransaction();
+            ft.replace(R.id.frame,fragment);
+            ft.commit();
+            Toast.makeText(this, "Clicked on Applied jobs", Toast.LENGTH_SHORT).show();
+        } else if (id == R.id.profile) {
+            fragment=new Profile();
+            FragmentTransaction ft=getSupportFragmentManager().beginTransaction();
+            ft.replace(R.id.frame,fragment);
+            ft.commit();
+            Toast.makeText(this, "Clicked on Profile", Toast.LENGTH_SHORT).show();
 
-        } else if (id == R.id.nav_slideshow) {
-
-        } else if (id == R.id.nav_manage) {
+        } else if (id == R.id.logout) {
+            Toast.makeText(this, "Clicked on Logout", Toast.LENGTH_SHORT).show();
 
         } else if (id == R.id.nav_share) {
+            Toast.makeText(this, "Clicked on Share", Toast.LENGTH_SHORT).show();
 
         } else if (id == R.id.nav_send) {
+            Toast.makeText(this, "Clicked on send", Toast.LENGTH_SHORT).show();
 
         }
+
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
