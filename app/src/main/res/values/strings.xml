@@ -23,4 +23,6 @@
     <string name="entry1">search Jobs</string>
     <string name="profile">Profile</string>
     <string name="applied_jobs">Applied Jobs</string>
+    <string name="search_hint">Search Jobs</string>
+    <string name="title_activity_search">Search</string>
 </resources>

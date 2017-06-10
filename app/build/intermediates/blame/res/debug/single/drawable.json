@@ -68,6 +68,10 @@
         "source": "/home/anand38/.android/build-cache/c9ed3bad3b6a01f570c75bd7d4b51cbca8b691af/output/res/drawable/abc_ic_voice_search_api_material.xml"
     },
     {
+        "merged": "/media/anand38/Anand/Projects/AndroidStudio Projects/Job Portal/app/build/intermediates/res/merged/debug/drawable/ic_arrow_back_black_18dp.png",
+        "source": "/media/anand38/Anand/Projects/AndroidStudio Projects/Job Portal/app/src/main/res/drawable/ic_arrow_back_black_18dp.png"
+    },
+    {
         "merged": "/media/anand38/Anand/Projects/AndroidStudio Projects/Job Portal/app/build/intermediates/res/merged/debug/drawable/abc_ic_ab_back_material.xml",
         "source": "/home/anand38/.android/build-cache/c9ed3bad3b6a01f570c75bd7d4b51cbca8b691af/output/res/drawable/abc_ic_ab_back_material.xml"
     },
@@ -94,6 +98,14 @@
     {
         "merged": "/media/anand38/Anand/Projects/AndroidStudio Projects/Job Portal/app/build/intermediates/res/merged/debug/drawable/ic_person_black_24dp.xml",
         "source": "/media/anand38/Anand/Projects/AndroidStudio Projects/Job Portal/app/src/main/res/drawable/ic_person_black_24dp.xml"
+    },
+    {
+        "merged": "/media/anand38/Anand/Projects/AndroidStudio Projects/Job Portal/app/build/intermediates/res/merged/debug/drawable/iconsback_10.png",
+        "source": "/media/anand38/Anand/Projects/AndroidStudio Projects/Job Portal/app/src/main/res/drawable/iconsback_10.png"
+    },
+    {
+        "merged": "/media/anand38/Anand/Projects/AndroidStudio Projects/Job Portal/app/build/intermediates/res/merged/debug/drawable/login_edittext.xml",
+        "source": "/media/anand38/Anand/Projects/AndroidStudio Projects/Job Portal/app/src/main/res/drawable/login_edittext.xml"
     },
     {
         "merged": "/media/anand38/Anand/Projects/AndroidStudio Projects/Job Portal/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_light.xml",
@@ -136,12 +148,20 @@
         "source": "/home/anand38/.android/build-cache/c9ed3bad3b6a01f570c75bd7d4b51cbca8b691af/output/res/drawable/abc_item_background_holo_light.xml"
     },
     {
+        "merged": "/media/anand38/Anand/Projects/AndroidStudio Projects/Job Portal/app/build/intermediates/res/merged/debug/drawable/location1.png",
+        "source": "/media/anand38/Anand/Projects/AndroidStudio Projects/Job Portal/app/src/main/res/drawable/location1.png"
+    },
+    {
         "merged": "/media/anand38/Anand/Projects/AndroidStudio Projects/Job Portal/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_dark.xml",
         "source": "/home/anand38/.android/build-cache/c9ed3bad3b6a01f570c75bd7d4b51cbca8b691af/output/res/drawable/abc_list_selector_background_transition_holo_dark.xml"
     },
     {
         "merged": "/media/anand38/Anand/Projects/AndroidStudio Projects/Job Portal/app/build/intermediates/res/merged/debug/drawable/abc_ic_menu_overflow_material.xml",
         "source": "/home/anand38/.android/build-cache/c9ed3bad3b6a01f570c75bd7d4b51cbca8b691af/output/res/drawable/abc_ic_menu_overflow_material.xml"
+    },
+    {
+        "merged": "/media/anand38/Anand/Projects/AndroidStudio Projects/Job Portal/app/build/intermediates/res/merged/debug/drawable/color_cursor_white.xml",
+        "source": "/home/anand38/.android/build-cache/b2487591fae1083b83189724616478f2a1c9ecbd/output/res/drawable/color_cursor_white.xml"
     },
     {
         "merged": "/media/anand38/Anand/Projects/AndroidStudio Projects/Job Portal/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_material.xml",

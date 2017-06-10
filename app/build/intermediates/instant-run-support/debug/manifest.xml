@@ -26,8 +26,7 @@
         android:theme="@style/AppTheme" >
         <activity
             android:name="com.example.anand38.jobportal.Activity.MainActivity"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
-        </activity>
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
         <activity
             android:name="com.example.anand38.jobportal.Activity.Home"
             android:label="@string/title_activity_home"
@@ -37,6 +36,8 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity android:name="com.example.anand38.jobportal.Activity.Search" >
         </activity>
 
         <provider

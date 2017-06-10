@@ -2,49 +2,40 @@
 <items version="2" >
 
     <item
-        is-multidex="true"
-        jar="/media/anand38/Anand/Projects/AndroidStudio Projects/Job Portal/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
-        <dex dex="/media/anand38/Anand/Projects/AndroidStudio Projects/Job Portal/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_9aefdf4807300cf92fe8570f1e0af3b2468372ab/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/media/anand38/Anand/Projects/AndroidStudio Projects/Job Portal/app/libs/apache-httpcomponents-httpclient.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="13d1b1d8f318f5b0f95bc2901f378ef68982584f">
-        <dex dex="/media/anand38/Anand/Projects/AndroidStudio Projects/Job Portal/app/build/intermediates/transforms/dex/debug/folders/1000/2/apache-httpcomponents-httpclient_3f952716dbbe58ee345412c64a80848389e7c222/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/media/anand38/Anand/Projects/AndroidStudio Projects/Job Portal/app/libs/apache-httpcomponents-httpcore.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="33fc26c02f8043ab0ede19eadc8c9885386b255c">
-        <dex dex="/media/anand38/Anand/Projects/AndroidStudio Projects/Job Portal/app/build/intermediates/transforms/dex/debug/folders/1000/2/apache-httpcomponents-httpcore_aac3c30ff6b8b9530a83522868ecba0db3bd60d2/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/media/anand38/Anand/Projects/AndroidStudio Projects/Job Portal/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="48f56d3f621069ba9774da1df35c8763a83f0ec9">
-        <dex dex="/media/anand38/Anand/Projects/AndroidStudio Projects/Job Portal/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_12a3570b872070f066749e2b7ffc7a82ba2fd008/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
+        is-multidex="false"
         jar="/media/anand38/Anand/Projects/AndroidStudio Projects/Job Portal/app/libs/org.apache.commons.io.jar"
-        jumboMode="true"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="b90b6ac57cf27a2858eaa490d02ba7945d18ca7b">
-        <dex dex="/media/anand38/Anand/Projects/AndroidStudio Projects/Job Portal/app/build/intermediates/transforms/dex/debug/folders/1000/2/org.apache.commons.io_dc71a1ccdf16827605ab474f863f67cd9dc78c30/classes.dex" />
+        <dex dex="/media/anand38/Anand/Projects/AndroidStudio Projects/Job Portal/app/build/intermediates/pre-dexed/debug/org.apache.commons.io_dc71a1ccdf16827605ab474f863f67cd9dc78c30.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/media/anand38/Anand/Projects/AndroidStudio Projects/Job Portal/app/libs/apache-httpcomponents-httpcore.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="33fc26c02f8043ab0ede19eadc8c9885386b255c">
+        <dex dex="/media/anand38/Anand/Projects/AndroidStudio Projects/Job Portal/app/build/intermediates/pre-dexed/debug/apache-httpcomponents-httpcore_aac3c30ff6b8b9530a83522868ecba0db3bd60d2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/media/anand38/Anand/Projects/AndroidStudio Projects/Job Portal/app/libs/apache-httpcomponents-httpclient.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="13d1b1d8f318f5b0f95bc2901f378ef68982584f">
+        <dex dex="/media/anand38/Anand/Projects/AndroidStudio Projects/Job Portal/app/build/intermediates/pre-dexed/debug/apache-httpcomponents-httpclient_3f952716dbbe58ee345412c64a80848389e7c222.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/anand38/.android/build-cache/b2487591fae1083b83189724616478f2a1c9ecbd/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="918e3e9514d90e54421b674cf0c95044f4e155ad">
+        <dex dex="/media/anand38/Anand/Projects/AndroidStudio Projects/Job Portal/app/build/intermediates/pre-dexed/debug/classes_0df9c061b66fe84b20b261392f722a0b558517c5.jar" />
     </item>
 
 </items>

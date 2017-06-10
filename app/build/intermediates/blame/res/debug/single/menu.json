@@ -8,6 +8,10 @@
         "source": "/media/anand38/Anand/Projects/AndroidStudio Projects/Job Portal/app/src/main/res/menu/activity_home_drawer.xml"
     },
     {
+        "merged": "/media/anand38/Anand/Projects/AndroidStudio Projects/Job Portal/app/build/intermediates/res/merged/debug/menu/options_menu.xml",
+        "source": "/media/anand38/Anand/Projects/AndroidStudio Projects/Job Portal/app/src/main/res/menu/options_menu.xml"
+    },
+    {
         "merged": "/media/anand38/Anand/Projects/AndroidStudio Projects/Job Portal/app/build/intermediates/res/merged/debug/menu/menu_scrolling.xml",
         "source": "/media/anand38/Anand/Projects/AndroidStudio Projects/Job Portal/app/src/main/res/menu/menu_scrolling.xml"
     },
