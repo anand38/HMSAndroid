@@ -89,6 +89,7 @@ public class XMLMsgParser {
                 Job job=new Job();
                 if (nNode.getNodeType() == Node.ELEMENT_NODE) {
                     Element eElement = (Element) nNode;
+                    job.setJob_id(eElement.getElementsByTagName("job_id").item(0).getTextContent());
                     job.setPosition(eElement.getElementsByTagName("position").item(0).getTextContent());
                     job.setLocation(eElement.getElementsByTagName("location").item(0).getTextContent());
                     job.setSalary(eElement.getElementsByTagName("salary").item(0).getTextContent());
@@ -97,6 +98,7 @@ public class XMLMsgParser {
                     job.setEligibility(eElement.getElementsByTagName("eligibility").item(0).getTextContent());
                     job.setPosted_on(eElement.getElementsByTagName("posted_on").item(0).getTextContent());
                 }
+                System.out.println("Jobid:"+job.getJob_id());
                 System.out.println("Position"+job.getPosition());
                 System.out.println("location"+job.getLocation());
                 System.out.println("salary"+job.getSalary());

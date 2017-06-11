@@ -16,14 +16,12 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.example.anand38.jobportal.Database.SessionManager;
+import com.example.anand38.jobportal.SessionHandler.SessionManager;
 import com.example.anand38.jobportal.Fragments.Appplied_Jobs;
 import com.example.anand38.jobportal.Fragments.Profile;
-import com.example.anand38.jobportal.Fragments.Search_Jobs;
 import com.example.anand38.jobportal.Fragments.default_fragment;
 import com.example.anand38.jobportal.Helper.FileJob;
 import com.example.anand38.jobportal.R;
@@ -130,11 +128,9 @@ public class Home extends AppCompatActivity
         Fragment fragment=null;
         if (id == R.id.search_jobs) {
             // Handle the camera action
-            fragment=new Search_Jobs();
-            FragmentTransaction ft=getSupportFragmentManager().beginTransaction();
-            ft.replace(R.id.frame,fragment);
-            ft.commit();
-            Toast.makeText(this, "Clicked on Search jobs", Toast.LENGTH_SHORT).show();
+            Intent i=new Intent(this,Search.class);
+            startActivity(i);
+            //Toast.makeText(this, "Clicked on Search jobs", Toast.LENGTH_SHORT).show();
         } else if (id == R.id.applied_jobs) {
             fragment=new Appplied_Jobs();
             FragmentTransaction ft=getSupportFragmentManager().beginTransaction();

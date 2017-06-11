@@ -3,6 +3,7 @@ package com.example.anand38.jobportal.Activity;
 import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.graphics.Color;
 import android.os.AsyncTask;
 import android.os.Build;
@@ -146,7 +147,20 @@ public class Search extends AppCompatActivity {
             @Override
             public void onClick(View view, int position) {
                 Job job = jobList.get(position);
-                Toast.makeText(getApplicationContext(), job.getPosition() + " is selected!", Toast.LENGTH_SHORT).show();
+                //Toast.makeText(getApplicationContext(), job.getPosition() + " is selected!", Toast.LENGTH_SHORT).show();
+                ArrayList<String> details=new ArrayList<String>();
+                details.add(job.getPosition());
+                details.add(job.getSalary());
+                details.add(job.getLocation());
+                details.add(job.getOpenings());
+                details.add(job.getDescription());
+                details.add(job.getEligibility());
+                details.add(job.getPosted_on());
+                details.add(job.getJob_id());
+                System.out.println("Job id is:"+job.getJob_id());
+                Intent i=new Intent(Search.this,Particular_job.class);
+                i.putStringArrayListExtra("job_details",details);
+                startActivity(i);
             }
 
             @Override

@@ -25,4 +25,5 @@
     <string name="applied_jobs">Applied Jobs</string>
     <string name="search_hint">Search Jobs</string>
     <string name="title_activity_search">Search</string>
+    <string name="title_activity_particular_job">Particular_job</string>
 </resources>

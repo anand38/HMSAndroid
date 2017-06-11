@@ -8,7 +8,6 @@ import android.os.AsyncTask;
 import android.os.StrictMode;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Xml;
 import android.view.View;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.Button;
@@ -16,7 +15,7 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 import com.example.anand38.jobportal.Configurations.AppConfig;
-import com.example.anand38.jobportal.Database.SessionManager;
+import com.example.anand38.jobportal.SessionHandler.SessionManager;
 import com.example.anand38.jobportal.Helper.FileJob;
 import com.example.anand38.jobportal.Helper.Network_Check;
 import com.example.anand38.jobportal.Helper.XMLMsgParser;
@@ -32,8 +31,6 @@ import org.apache.http.client.methods.HttpPut;
 import org.apache.http.entity.StringEntity;
 import org.apache.http.impl.client.DefaultHttpClient;
 import org.apache.http.protocol.HTTP;
-import org.xmlpull.v1.XmlPullParser;
-import org.xmlpull.v1.XmlPullParserException;
 
 import java.io.IOException;
 import java.io.InputStream;

@@ -27,10 +27,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Activity.Search"
-             >
-
-        </activity>
+        <activity android:name=".Activity.Search"></activity>
+        <activity
+            android:name=".Activity.Particular_job"
+            android:label=""
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>
