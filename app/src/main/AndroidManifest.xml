@@ -27,11 +27,16 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Activity.Search"></activity>
+        <activity android:name=".Activity.Search" />
         <activity
             android:name=".Activity.Particular_job"
             android:label=""
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Activity.Particular_job_for_already_applied"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:label="APPPLIED JOB">
+
+        </activity>
     </application>
 
 </manifest>

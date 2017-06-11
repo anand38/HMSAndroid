@@ -2,12 +2,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.anand38.jobportal.Fragments.Appplied_Jobs">
+    tools:context="com.example.anand38.jobportal.Fragments.Applied_Jobs">
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_view"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/applied_jobs" />
+        android:layout_height="wrap_content"
+
+        android:scrollbars="vertical" />
 
 </FrameLayout>

@@ -6,37 +6,28 @@
     density="420dpi"
     format="10"
     plugin-version="2.3.3"
-    timestamp="1497176854955"
+    timestamp="1497189540536"
     token="7531099843784386922"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="4079" />
+        duration="1153" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="658" />
+        duration="152" />
     <task
         name="verifier"
-        duration="190" />
+        duration="104" />
 
-    <artifact
-        location="/media/anand38/Anand/Projects/AndroidStudio Projects/Job Portal/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
-        type="SPLIT" />
-    <artifact
-        location="/media/anand38/Anand/Projects/AndroidStudio Projects/Job Portal/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
-        type="SPLIT" />
-    <artifact
-        location="/media/anand38/Anand/Projects/AndroidStudio Projects/Job Portal/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
-        type="SPLIT" />
     <artifact
         location="/media/anand38/Anand/Projects/AndroidStudio Projects/Job Portal/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
         type="SPLIT" />
     <artifact
-        location="/media/anand38/Anand/Projects/AndroidStudio Projects/Job Portal/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
+        location="/media/anand38/Anand/Projects/AndroidStudio Projects/Job Portal/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
         type="SPLIT" />
     <artifact
         location="/media/anand38/Anand/Projects/AndroidStudio Projects/Job Portal/app/build/outputs/apk/app-debug.apk"
@@ -44,17 +35,14 @@
 
     <build
         build-mode="FULL"
-        timestamp="1497174331227"
+        timestamp="1497187603685"
         verifier="FULL_BUILD_REQUESTED" >
-        <artifact
-            location="/media/anand38/Anand/Projects/AndroidStudio Projects/Job Portal/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
-            type="SPLIT" />
-        <artifact
-            location="/media/anand38/Anand/Projects/AndroidStudio Projects/Job Portal/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
-            type="SPLIT" />
         <artifact
             location="/media/anand38/Anand/Projects/AndroidStudio Projects/Job Portal/app/build/outputs/apk/app-debug.apk"
             type="SPLIT_MAIN" />
+        <artifact
+            location="/media/anand38/Anand/Projects/AndroidStudio Projects/Job Portal/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
+            type="SPLIT" />
         <artifact
             location="/media/anand38/Anand/Projects/AndroidStudio Projects/Job Portal/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
             type="SPLIT" />
@@ -80,27 +68,40 @@
             location="/media/anand38/Anand/Projects/AndroidStudio Projects/Job Portal/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
             type="SPLIT" />
         <artifact
+            location="/media/anand38/Anand/Projects/AndroidStudio Projects/Job Portal/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
+            type="SPLIT" />
+        <artifact
             location="/media/anand38/Anand/Projects/AndroidStudio Projects/Job Portal/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
             type="SPLIT" />
     </build>
     <build
         build-mode="COLD"
-        timestamp="1497176854955"
+        timestamp="1497188841764"
         verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="/media/anand38/Anand/Projects/AndroidStudio Projects/Job Portal/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
-            type="SPLIT" />
         <artifact
             location="/media/anand38/Anand/Projects/AndroidStudio Projects/Job Portal/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
             type="SPLIT" />
         <artifact
             location="/media/anand38/Anand/Projects/AndroidStudio Projects/Job Portal/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
             type="SPLIT" />
+    </build>
+    <build
+        build-mode="COLD"
+        timestamp="1497189306594"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="/media/anand38/Anand/Projects/AndroidStudio Projects/Job Portal/app/build/outputs/apk/app-debug.apk"
+            type="SPLIT_MAIN" />
+    </build>
+    <build
+        build-mode="COLD"
+        timestamp="1497189540536"
+        verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="/media/anand38/Anand/Projects/AndroidStudio Projects/Job Portal/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
             type="SPLIT" />
         <artifact
-            location="/media/anand38/Anand/Projects/AndroidStudio Projects/Job Portal/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
+            location="/media/anand38/Anand/Projects/AndroidStudio Projects/Job Portal/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
             type="SPLIT" />
         <artifact
             location="/media/anand38/Anand/Projects/AndroidStudio Projects/Job Portal/app/build/outputs/apk/app-debug.apk"

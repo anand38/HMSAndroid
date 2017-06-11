@@ -13,6 +13,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.anand38.jobportal.Configurations.AppConfig;
+import com.example.anand38.jobportal.Helper.Network_Check;
 import com.example.anand38.jobportal.SessionHandler.SessionManager;
 import com.example.anand38.jobportal.Helper.XmlSerializer;
 import com.example.anand38.jobportal.R;
@@ -69,9 +70,12 @@ public class Particular_job extends AppCompatActivity {
 
                 HashMap<String, String> user = session.getUserDetails();
                 String email = user.get(SessionManager.KEY_EMAIL);
-
-                applyclass=new ApplyClass(email,list.get(7));
-                applyclass.execute();
+                if (Network_Check.isNetworkAvailable(getApplicationContext())) {
+                    applyclass=new ApplyClass(email,list.get(7));
+                    applyclass.execute();
+                }else{
+                    Toast.makeText(Particular_job.this, "Please check network connection and retry..", Toast.LENGTH_SHORT).show();
+                }
 
             }
         });

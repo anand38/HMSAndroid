@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /media/anand38/Anand/Projects/AndroidStudio Projects/Job Portal/app/src/main/AndroidManifest.xml:2:1-37:12
+ADDED from /media/anand38/Anand/Projects/AndroidStudio Projects/Job Portal/app/src/main/AndroidManifest.xml:2:1-42:12
 	package
 		ADDED from /media/anand38/Anand/Projects/AndroidStudio Projects/Job Portal/app/src/main/AndroidManifest.xml:3:5-44
 		INJECTED from /media/anand38/Anand/Projects/AndroidStudio Projects/Job Portal/app/src/main/AndroidManifest.xml
@@ -30,7 +30,7 @@ ADDED from /media/anand38/Anand/Projects/AndroidStudio Projects/Job Portal/app/s
 	android:name
 		ADDED from /media/anand38/Anand/Projects/AndroidStudio Projects/Job Portal/app/src/main/AndroidManifest.xml:8:22-76
 application
-ADDED from /media/anand38/Anand/Projects/AndroidStudio Projects/Job Portal/app/src/main/AndroidManifest.xml:10:5-35:19
+ADDED from /media/anand38/Anand/Projects/AndroidStudio Projects/Job Portal/app/src/main/AndroidManifest.xml:10:5-40:19
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/anand38/.android/build-cache/b90f9d8820e6d243b0d756433d774f9deb680174/output/AndroidManifest.xml:9:5-20
 MERGED from [com.miguelcatalan:materialsearchview:1.4.0] /home/anand38/.android/build-cache/b2487591fae1083b83189724616478f2a1c9ecbd/output/AndroidManifest.xml:11:5-20
 MERGED from [com.android.support:design:25.0.1] /home/anand38/.android/build-cache/e58ad41474e3ad289fa5a1510e985449ce1e47ba/output/AndroidManifest.xml:25:5-20
@@ -82,17 +82,25 @@ ADDED from /media/anand38/Anand/Projects/AndroidStudio Projects/Job Portal/app/s
 	android:name
 		ADDED from /media/anand38/Anand/Projects/AndroidStudio Projects/Job Portal/app/src/main/AndroidManifest.xml:27:27-74
 activity#com.example.anand38.jobportal.Activity.Search
-ADDED from /media/anand38/Anand/Projects/AndroidStudio Projects/Job Portal/app/src/main/AndroidManifest.xml:30:9-62
+ADDED from /media/anand38/Anand/Projects/AndroidStudio Projects/Job Portal/app/src/main/AndroidManifest.xml:30:9-53
 	android:name
 		ADDED from /media/anand38/Anand/Projects/AndroidStudio Projects/Job Portal/app/src/main/AndroidManifest.xml:30:19-50
 activity#com.example.anand38.jobportal.Activity.Particular_job
-ADDED from /media/anand38/Anand/Projects/AndroidStudio Projects/Job Portal/app/src/main/AndroidManifest.xml:31:9-34:68
+ADDED from /media/anand38/Anand/Projects/AndroidStudio Projects/Job Portal/app/src/main/AndroidManifest.xml:31:9-34:59
 	android:label
 		ADDED from /media/anand38/Anand/Projects/AndroidStudio Projects/Job Portal/app/src/main/AndroidManifest.xml:33:13-29
 	android:theme
 		ADDED from /media/anand38/Anand/Projects/AndroidStudio Projects/Job Portal/app/src/main/AndroidManifest.xml:34:13-56
 	android:name
 		ADDED from /media/anand38/Anand/Projects/AndroidStudio Projects/Job Portal/app/src/main/AndroidManifest.xml:32:13-52
+activity#com.example.anand38.jobportal.Activity.Particular_job_for_already_applied
+ADDED from /media/anand38/Anand/Projects/AndroidStudio Projects/Job Portal/app/src/main/AndroidManifest.xml:35:9-39:20
+	android:label
+		ADDED from /media/anand38/Anand/Projects/AndroidStudio Projects/Job Portal/app/src/main/AndroidManifest.xml:37:13-41
+	android:theme
+		ADDED from /media/anand38/Anand/Projects/AndroidStudio Projects/Job Portal/app/src/main/AndroidManifest.xml:36:13-56
+	android:name
+		ADDED from /media/anand38/Anand/Projects/AndroidStudio Projects/Job Portal/app/src/main/AndroidManifest.xml:35:19-78
 uses-sdk
 INJECTED from /media/anand38/Anand/Projects/AndroidStudio Projects/Job Portal/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/anand38/.android/build-cache/b90f9d8820e6d243b0d756433d774f9deb680174/output/AndroidManifest.xml:5:5-7:41

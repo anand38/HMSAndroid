@@ -2,8 +2,6 @@ package com.example.anand38.jobportal.Activity;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
@@ -20,7 +18,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.anand38.jobportal.SessionHandler.SessionManager;
-import com.example.anand38.jobportal.Fragments.Appplied_Jobs;
+import com.example.anand38.jobportal.Fragments.Applied_Jobs;
 import com.example.anand38.jobportal.Fragments.Profile;
 import com.example.anand38.jobportal.Fragments.default_fragment;
 import com.example.anand38.jobportal.Helper.FileJob;
@@ -55,14 +53,7 @@ public class Home extends AppCompatActivity
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
-        fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
-            }
-        });
+
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
@@ -132,11 +123,10 @@ public class Home extends AppCompatActivity
             startActivity(i);
             //Toast.makeText(this, "Clicked on Search jobs", Toast.LENGTH_SHORT).show();
         } else if (id == R.id.applied_jobs) {
-            fragment=new Appplied_Jobs();
+            fragment=new Applied_Jobs();
             FragmentTransaction ft=getSupportFragmentManager().beginTransaction();
             ft.replace(R.id.frame,fragment);
             ft.commit();
-            Toast.makeText(this, "Clicked on Applied jobs", Toast.LENGTH_SHORT).show();
         } else if (id == R.id.profile) {
             fragment=new Profile();
             FragmentTransaction ft=getSupportFragmentManager().beginTransaction();

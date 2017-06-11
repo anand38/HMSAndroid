@@ -42,6 +42,11 @@
             android:name="com.example.anand38.jobportal.Activity.Particular_job"
             android:label=""
             android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.anand38.jobportal.Activity.Particular_job_for_already_applied"
+            android:label="APPPLIED JOB"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
 
         <provider
             android:name="com.android.tools.fd.runtime.InstantRunContentProvider"
