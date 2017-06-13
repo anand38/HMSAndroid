@@ -4,6 +4,7 @@ import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.net.Uri;
 import android.os.AsyncTask;
 import android.os.StrictMode;
 import android.support.v7.app.AppCompatActivity;
@@ -12,6 +13,7 @@ import android.view.View;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.anand38.jobportal.Configurations.AppConfig;
@@ -40,6 +42,7 @@ import java.util.HashMap;
 public class MainActivity extends AppCompatActivity {
     EditText email,password;
     Button submit;
+    TextView register;
     Myclass myclass;
     GainDetail gainDetail;
     static String name;
@@ -84,12 +87,21 @@ public class MainActivity extends AppCompatActivity {
                 }
             }
         });
+
+        register.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i=new Intent(Intent.ACTION_VIEW, Uri.parse("http://env-4841395.j.layershift.co.uk/Registration/"));
+                startActivity(i);
+            }
+        });
     }
 
     private void findViewsbyID(){
         email= (EditText) findViewById(R.id.email);
         password= (EditText) findViewById(R.id.password);
         submit= (Button) findViewById(R.id.submit);
+        register= (TextView) findViewById(R.id.register);
     }
 
     public class Myclass extends AsyncTask<Void,Void,String>{
@@ -138,6 +150,7 @@ public class MainActivity extends AppCompatActivity {
             HttpResponse response = null;
             //initialize stream object
             InputStream is = null;
+
 
             try {
                 //initialize client to connect with the url with respective method

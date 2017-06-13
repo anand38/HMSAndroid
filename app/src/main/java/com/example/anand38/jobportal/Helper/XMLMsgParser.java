@@ -35,40 +35,40 @@ import javax.xml.xpath.XPathFactory;
 public class XMLMsgParser {
     private static final String ns = null;
     public static HashMap<String,String>  parse_id_name(InputStream is) {
-    HashMap<String,String> map=new HashMap<>();
-    XmlPullParser parser = Xml.newPullParser();
-    try {
-        parser.setFeature(XmlPullParser.FEATURE_PROCESS_NAMESPACES, false);
-        parser.setInput(is, null);
-        parser.nextTag();
+        HashMap<String,String> map=new HashMap<>();
+        XmlPullParser parser = Xml.newPullParser();
+        try {
+            parser.setFeature(XmlPullParser.FEATURE_PROCESS_NAMESPACES, false);
+            parser.setInput(is, null);
+            parser.nextTag();
 
-        parser.require(XmlPullParser.START_TAG, ns, "candidate");
-        while (parser.next() != XmlPullParser.END_TAG) {
-            if (parser.getEventType() != XmlPullParser.START_TAG) {
-                continue;
+            parser.require(XmlPullParser.START_TAG, ns, "candidate");
+            while (parser.next() != XmlPullParser.END_TAG) {
+                if (parser.getEventType() != XmlPullParser.START_TAG) {
+                    continue;
+                }
+
+                String name = parser.getName();
+                if (name.equals("id")){
+                    map.put("id",readTags(parser, "id"));
+
+                    //Toast.makeText(this, readTags(parser, "city"), Toast.LENGTH_SHORT).show();
+                }else if (name.equals("name")){
+                    map.put("name",readTags(parser, "name"));
+
+                    //Toast.makeText(this, readTags(parser, "temperature"), Toast.LENGTH_SHORT).show();
+                } else {
+                    skip(parser);
+                }
             }
 
-            String name = parser.getName();
-            if (name.equals("id")){
-                map.put("id",readTags(parser, "id"));
-
-                //Toast.makeText(this, readTags(parser, "city"), Toast.LENGTH_SHORT).show();
-            }else if (name.equals("name")){
-                map.put("name",readTags(parser, "name"));
-
-                //Toast.makeText(this, readTags(parser, "temperature"), Toast.LENGTH_SHORT).show();
-            } else {
-                skip(parser);
-            }
+        }catch (Exception e){
+            e.printStackTrace();
         }
 
-    }catch (Exception e){
-        e.printStackTrace();
+
+        return map;
     }
-
-
-    return map;
-}
 
     public static List<Job> parse_jobs_data(InputStream is,String xml) throws IOException {
         List<Job> list=new ArrayList<>();
@@ -76,12 +76,12 @@ public class XMLMsgParser {
 
 
         try {
-        Document doc = convertStringToDocument(xml);
-        doc.getDocumentElement().normalize();
+            Document doc = convertStringToDocument(xml);
+            doc.getDocumentElement().normalize();
 
-        //parsing using xpath
-        XPath xPath =  XPathFactory.newInstance().newXPath();
-        String expression = "/jobs/job";
+            //parsing using xpath
+            XPath xPath =  XPathFactory.newInstance().newXPath();
+            String expression = "/jobs/job";
 
             NodeList nodeList = (NodeList) xPath.compile(expression).evaluate(doc, XPathConstants.NODESET);
             for (int i = 0; i < nodeList.getLength(); i++) {
@@ -110,7 +110,7 @@ public class XMLMsgParser {
                 list.add(job);
             }
 
-           // System.out.println("Now list size:"+list.size());
+            // System.out.println("Now list size:"+list.size());
 
 
         } catch (XPathExpressionException e) {
@@ -168,4 +168,95 @@ public class XMLMsgParser {
         return null;
     }
 
+    public static HashMap<String,String> parse_profile_data(InputStream is) {
+        HashMap<String,String> map=new HashMap<>();
+        XmlPullParser parser = Xml.newPullParser();
+        try {
+            parser.setFeature(XmlPullParser.FEATURE_PROCESS_NAMESPACES, false);
+            parser.setInput(is, null);
+            parser.nextTag();
+            parser.require(XmlPullParser.START_TAG, ns, "candidate");
+            while (parser.next() != XmlPullParser.END_TAG) {
+                if (parser.getEventType() != XmlPullParser.START_TAG) {
+                    continue;
+                }
+
+                String name = parser.getName();
+                if (name.equals("profile")){
+                    while (parser.next() != XmlPullParser.END_TAG) {
+                        if (parser.getEventType() != XmlPullParser.START_TAG) {
+                            continue;
+                        }
+                        String n=parser.getName();
+                        if (n.equals("name")){
+                            map.put("name",readTags(parser,"name"));
+                        }else if(n.equals("email")){
+                            map.put("email",readTags(parser,"email"));
+                        }
+                        else if(n.equals("gender")){
+                            map.put("gender",readTags(parser,"gender"));
+                        }
+                        else if(n.equals("dob")){
+                            map.put("dob",readTags(parser,"dob"));
+                        }
+                        else if(n.equals("contact")){
+                            map.put("contact",readTags(parser,"contact"));
+                        }
+                        else if(n.equals("course")){
+                            map.put("course",readTags(parser,"course"));
+                        }
+                        else if(n.equals("college_name")){
+                            map.put("college_name",readTags(parser,"college_name"));
+                        }
+                        else if(n.equals("specialization")){
+                            map.put("specialization",readTags(parser,"specialization"));
+                        }else if(n.equals("yop")){
+                            map.put("yop",readTags(parser,"yop"));
+                        }
+                    }
+                    //Toast.makeText(this, readTags(parser, "city"), Toast.LENGTH_SHORT).show();
+                } else {
+                    skip(parser);
+                }
+            }
+
+        }catch(Exception e){
+            e.printStackTrace();
+        }
+        /*
+        try {
+            Document doc = convertStringToDocument(xml);
+            doc.getDocumentElement().normalize();
+
+            //parsing using xpath
+            XPath xPath =  XPathFactory.newInstance().newXPath();
+            String expression = "/candidate/profile";
+
+            NodeList nodeList = (NodeList) xPath.compile(expression).evaluate(doc, XPathConstants.NODESET);
+            for (int i = 0; i < nodeList.getLength(); i++) {
+                Node nNode = nodeList.item(i);
+                if (nNode.getNodeType() == Node.ELEMENT_NODE) {
+                    Element eElement = (Element) nNode;
+                    map.put("name",eElement.getElementsByTagName("name").item(0).getTextContent());
+                    map.put("email",eElement.getElementsByTagName("email").item(0).getTextContent());
+                    map.put("gender",eElement.getElementsByTagName("gender`").item(0).getTextContent());
+                    map.put("dob",eElement.getElementsByTagName("dob").item(0).getTextContent());
+                    map.put("contact",eElement.getElementsByTagName("contact").item(0).getTextContent());
+                    map.put("course",eElement.getElementsByTagName("course").item(0).getTextContent());
+                    map.put("college_name",eElement.getElementsByTagName("college_name").item(0).getTextContent());
+                    map.put("specialization",eElement.getElementsByTagName("specialization").item(0).getTextContent());
+                    map.put("yop",eElement.getElementsByTagName("yop").item(0).getTextContent());
+
+                }
+
+            }
+
+            // System.out.println("Now list size:"+list.size());
+
+
+        } catch (XPathExpressionException e) {
+            e.printStackTrace();
+        }*/
+        return map;
+    }
 }

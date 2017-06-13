@@ -121,7 +121,6 @@ public class Home extends AppCompatActivity
             // Handle the camera action
             Intent i=new Intent(this,Search.class);
             startActivity(i);
-            //Toast.makeText(this, "Clicked on Search jobs", Toast.LENGTH_SHORT).show();
         } else if (id == R.id.applied_jobs) {
             fragment=new Applied_Jobs();
             FragmentTransaction ft=getSupportFragmentManager().beginTransaction();
@@ -132,17 +131,10 @@ public class Home extends AppCompatActivity
             FragmentTransaction ft=getSupportFragmentManager().beginTransaction();
             ft.replace(R.id.frame,fragment);
             ft.commit();
-            Toast.makeText(this, "Clicked on Profile", Toast.LENGTH_SHORT).show();
 
         } else if (id == R.id.logout) {
-            Toast.makeText(this, "Clicked on Logout", Toast.LENGTH_SHORT).show();
-
-        } else if (id == R.id.nav_share) {
-            Toast.makeText(this, "Clicked on Share", Toast.LENGTH_SHORT).show();
-
-        } else if (id == R.id.nav_send) {
-            Toast.makeText(this, "Clicked on send", Toast.LENGTH_SHORT).show();
-
+            manager.logoutUser();
+            finish();
         }
 
 

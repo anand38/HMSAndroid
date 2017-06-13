@@ -1,42 +1,42 @@
 [
     {
-        "merged": "/media/anand38/Anand/Projects/AndroidStudio Projects/Job Portal/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_action_voice_search_inverted.png",
-        "source": "/home/anand38/.android/build-cache/b2487591fae1083b83189724616478f2a1c9ecbd/output/res/drawable-xhdpi/ic_action_voice_search_inverted.png"
-    },
-    {
-        "merged": "/media/anand38/Anand/Projects/AndroidStudio Projects/Job Portal/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_action_navigation_arrow_back_inverted.png",
-        "source": "/home/anand38/.android/build-cache/b2487591fae1083b83189724616478f2a1c9ecbd/output/res/drawable-xhdpi/ic_action_navigation_arrow_back_inverted.png"
-    },
-    {
-        "merged": "/media/anand38/Anand/Projects/AndroidStudio Projects/Job Portal/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_action_navigation_arrow_back.png",
-        "source": "/home/anand38/.android/build-cache/b2487591fae1083b83189724616478f2a1c9ecbd/output/res/drawable-xhdpi/ic_action_navigation_arrow_back.png"
-    },
-    {
-        "merged": "/media/anand38/Anand/Projects/AndroidStudio Projects/Job Portal/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_suggestion.png",
-        "source": "/home/anand38/.android/build-cache/b2487591fae1083b83189724616478f2a1c9ecbd/output/res/drawable-xhdpi/ic_suggestion.png"
-    },
-    {
-        "merged": "/media/anand38/Anand/Projects/AndroidStudio Projects/Job Portal/app/build/intermediates/res/merged/debug/drawable-xhdpi/location.png",
-        "source": "/media/anand38/Anand/Projects/AndroidStudio Projects/Job Portal/app/src/main/res/drawable-xhdpi/location.png"
-    },
-    {
-        "merged": "/media/anand38/Anand/Projects/AndroidStudio Projects/Job Portal/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_action_navigation_close.png",
-        "source": "/home/anand38/.android/build-cache/b2487591fae1083b83189724616478f2a1c9ecbd/output/res/drawable-xhdpi/ic_action_navigation_close.png"
-    },
-    {
-        "merged": "/media/anand38/Anand/Projects/AndroidStudio Projects/Job Portal/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_action_voice_search.png",
-        "source": "/home/anand38/.android/build-cache/b2487591fae1083b83189724616478f2a1c9ecbd/output/res/drawable-xhdpi/ic_action_voice_search.png"
-    },
-    {
-        "merged": "/media/anand38/Anand/Projects/AndroidStudio Projects/Job Portal/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_action_navigation_close_inverted.png",
+        "merged": "/home/anand38/Desktop/Android Portal/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_action_navigation_close_inverted.png",
         "source": "/home/anand38/.android/build-cache/b2487591fae1083b83189724616478f2a1c9ecbd/output/res/drawable-xhdpi/ic_action_navigation_close_inverted.png"
     },
     {
-        "merged": "/media/anand38/Anand/Projects/AndroidStudio Projects/Job Portal/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_action_action_search.png",
+        "merged": "/home/anand38/Desktop/Android Portal/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_action_navigation_arrow_back.png",
+        "source": "/home/anand38/.android/build-cache/b2487591fae1083b83189724616478f2a1c9ecbd/output/res/drawable-xhdpi/ic_action_navigation_arrow_back.png"
+    },
+    {
+        "merged": "/home/anand38/Desktop/Android Portal/app/build/intermediates/res/merged/debug/drawable-xhdpi/location.png",
+        "source": "/home/anand38/Desktop/Android Portal/app/src/main/res/drawable-xhdpi/location.png"
+    },
+    {
+        "merged": "/home/anand38/Desktop/Android Portal/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_action_name.png",
+        "source": "/home/anand38/Desktop/Android Portal/app/src/main/res/drawable-xhdpi/ic_action_name.png"
+    },
+    {
+        "merged": "/home/anand38/Desktop/Android Portal/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_action_navigation_close.png",
+        "source": "/home/anand38/.android/build-cache/b2487591fae1083b83189724616478f2a1c9ecbd/output/res/drawable-xhdpi/ic_action_navigation_close.png"
+    },
+    {
+        "merged": "/home/anand38/Desktop/Android Portal/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_action_voice_search.png",
+        "source": "/home/anand38/.android/build-cache/b2487591fae1083b83189724616478f2a1c9ecbd/output/res/drawable-xhdpi/ic_action_voice_search.png"
+    },
+    {
+        "merged": "/home/anand38/Desktop/Android Portal/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_action_action_search.png",
         "source": "/home/anand38/.android/build-cache/b2487591fae1083b83189724616478f2a1c9ecbd/output/res/drawable-xhdpi/ic_action_action_search.png"
     },
     {
-        "merged": "/media/anand38/Anand/Projects/AndroidStudio Projects/Job Portal/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_action_name.png",
-        "source": "/media/anand38/Anand/Projects/AndroidStudio Projects/Job Portal/app/src/main/res/drawable-xhdpi/ic_action_name.png"
+        "merged": "/home/anand38/Desktop/Android Portal/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_suggestion.png",
+        "source": "/home/anand38/.android/build-cache/b2487591fae1083b83189724616478f2a1c9ecbd/output/res/drawable-xhdpi/ic_suggestion.png"
+    },
+    {
+        "merged": "/home/anand38/Desktop/Android Portal/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_action_voice_search_inverted.png",
+        "source": "/home/anand38/.android/build-cache/b2487591fae1083b83189724616478f2a1c9ecbd/output/res/drawable-xhdpi/ic_action_voice_search_inverted.png"
+    },
+    {
+        "merged": "/home/anand38/Desktop/Android Portal/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_action_navigation_arrow_back_inverted.png",
+        "source": "/home/anand38/.android/build-cache/b2487591fae1083b83189724616478f2a1c9ecbd/output/res/drawable-xhdpi/ic_action_navigation_arrow_back_inverted.png"
     }
 ]

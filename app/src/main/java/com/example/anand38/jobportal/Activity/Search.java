@@ -336,10 +336,11 @@ public class Search extends AppCompatActivity {
                 pd.dismiss();
                 pd = null;
             }
-            System.out.println("Size is:"+jobList.size());
+            if (jobList.size()==0){
+                Toast.makeText(Search.this, "No Result found. Try searching for some other keywords eg. engineer etc.", Toast.LENGTH_LONG).show();
+            }            System.out.println("Size is:"+jobList.size());
             callrecyclertoupdate();
         }
     }
-    
-}
 
+}

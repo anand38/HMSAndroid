@@ -218,4 +218,41 @@ public class XmlSerializer {
         return writer.toString();
 
     }
+
+    public static String createCandidateemailXML(String email) {
+        StringWriter writer=null;
+        try {
+
+            DocumentBuilderFactory docFactory = DocumentBuilderFactory.newInstance();
+            DocumentBuilder docBuilder = docFactory.newDocumentBuilder();
+
+            // root elements
+            Document doc = docBuilder.newDocument();
+            Element rootElement = doc.createElement("candidate");
+            doc.appendChild(rootElement);
+
+            Element e = doc.createElement("email");
+            e.appendChild(doc.createTextNode(email));
+            rootElement.appendChild(e);
+
+
+            // write the content into xml file
+            TransformerFactory transformerFactory = TransformerFactory.newInstance();
+            Transformer transformer = transformerFactory.newTransformer();
+            DOMSource source = new DOMSource(doc);
+            writer=new StringWriter();
+            // Output to console for testing
+            //StreamResult result = new StreamResult(System.out);
+
+            transformer.transform(source, new StreamResult(writer));
+
+        } catch (ParserConfigurationException pce) {
+            pce.printStackTrace();
+        } catch (TransformerException tfe) {
+            tfe.printStackTrace();
+        }
+        System.out.println("XmlString:"+writer.toString());
+        return writer.toString();
+
+    }
 }

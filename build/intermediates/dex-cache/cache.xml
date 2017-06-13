@@ -39,6 +39,15 @@
     </item>
     <item
         is-multidex="true"
+        jar="/home/anand38/Desktop/Android Portal/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="/home/anand38/Desktop/Android Portal/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_e14ab0a543804156cf87cae484f4407de329e47b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/media/anand38/Anand/Projects/AndroidStudio Projects/Job Portal/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
         jumboMode="true"
         optimize="true"
@@ -117,6 +126,42 @@
         revision="25.0.2"
         sha1="b90b6ac57cf27a2858eaa490d02ba7945d18ca7b">
         <dex dex="/media/anand38/Anand/Projects/AndroidStudio Projects/Job Portal/app/build/intermediates/pre-dexed/debug/org.apache.commons.io_dc71a1ccdf16827605ab474f863f67cd9dc78c30.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/anand38/Desktop/Android Portal/app/libs/apache-httpcomponents-httpclient.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="13d1b1d8f318f5b0f95bc2901f378ef68982584f">
+        <dex dex="/home/anand38/Desktop/Android Portal/app/build/intermediates/transforms/dex/debug/folders/1000/2/apache-httpcomponents-httpclient_b7b123e9e49a0c7b08a27debf667e837891fc8f3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/anand38/Desktop/Android Portal/app/libs/apache-httpcomponents-httpcore.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="33fc26c02f8043ab0ede19eadc8c9885386b255c">
+        <dex dex="/home/anand38/Desktop/Android Portal/app/build/intermediates/transforms/dex/debug/folders/1000/2/apache-httpcomponents-httpcore_e84a3f992a234144df4e5b9db6702c366a7087e9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/anand38/Desktop/Android Portal/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e0ca4dfb0f4faf41f0b7cc1bb4757bf80ff1e8b3">
+        <dex dex="/home/anand38/Desktop/Android Portal/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_8bb1965df808ebef08242a9197debbd047f867a1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/anand38/Desktop/Android Portal/app/libs/org.apache.commons.io.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b90b6ac57cf27a2858eaa490d02ba7945d18ca7b">
+        <dex dex="/home/anand38/Desktop/Android Portal/app/build/intermediates/transforms/dex/debug/folders/1000/2/org.apache.commons.io_89e12a70fad0bfdabf5ec26e54bc0a316027a849/classes.dex" />
     </item>
 
 </items>

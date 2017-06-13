@@ -1,10 +1,10 @@
 [
     {
-        "merged": "/media/anand38/Anand/Projects/AndroidStudio Projects/Job Portal/app/build/intermediates/res/merged/debug/mipmap-xhdpi/ic_launcher_round.png",
-        "source": "/media/anand38/Anand/Projects/AndroidStudio Projects/Job Portal/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
+        "merged": "/home/anand38/Desktop/Android Portal/app/build/intermediates/res/merged/debug/mipmap-xhdpi/ic_launcher_round.png",
+        "source": "/home/anand38/Desktop/Android Portal/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
     },
     {
-        "merged": "/media/anand38/Anand/Projects/AndroidStudio Projects/Job Portal/app/build/intermediates/res/merged/debug/mipmap-xhdpi/ic_launcher.png",
-        "source": "/media/anand38/Anand/Projects/AndroidStudio Projects/Job Portal/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+        "merged": "/home/anand38/Desktop/Android Portal/app/build/intermediates/res/merged/debug/mipmap-xhdpi/ic_launcher.png",
+        "source": "/home/anand38/Desktop/Android Portal/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
     }
 ]
